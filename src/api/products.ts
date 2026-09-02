@@ -17,9 +17,9 @@ const ProductResponseSchema = z.object({
   skip: z.number(),
   limit: z.number(),
 })
-const API_URL = import.meta.env.VITE_API_URL;
+// const API_URL = import.meta.env.VITE_API_URL;
 export async function fetchProducts(): Promise<ProductApiResponse> {
-  const response = await fetch(`${API_URL}/products?limit=24`)
+  const response = await fetch(`https://dummyjson.com/products?limit=24`)
 
   if (!response.ok) {
     throw new Error(`Unable to fetch products (${response.status})`)
