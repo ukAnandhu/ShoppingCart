@@ -125,22 +125,6 @@ export default function App() {
         </section>
       </main>
 
-      {/* {cartOpen && (
-        <CartDrawer
-          items={items}
-          subtotal={subtotal}
-          onClose={() => setCartOpen(false)}
-          onRemove={removeFromCart}
-          onIncrease={increaseQuantity}
-          onDecrease={decreaseQuantity}
-          onClear={clearCart}
-          onCheckout={() => {
-            setCartOpen(false);
-            setCheckoutOpen(true);
-          }}
-        />
-      )}
-      {checkoutOpen && <Checkout onClose={() => setCheckoutOpen(false)} />} */}
       {cartOpen && (
         <CartDrawer
           items={items}
