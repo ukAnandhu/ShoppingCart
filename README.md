@@ -384,3 +384,13 @@ README: Included in repository
 ```
 
 Replace the placeholder URLs with your actual GitHub and deployment URLs.
+
+# Known Limitations
+
+The application depends on the availability of the Fake Store API.
+Product data is provided by the external API and cannot be modified from the application.
+No user authentication or account functionality is implemented.
+No real payment gateway or checkout process is implemented.
+Cart data is maintained on the client side and may be lost after clearing browser storage/session depending on the implementation.
+Product search and advanced filtering are not included.
+The application is intended as a frontend assignment and is not connected to a production backend.
