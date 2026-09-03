@@ -1,4 +1,5 @@
 # ShopCart — Shopping Cart Application
+# Live Link - https://shopping-cart-34y3.vercel.app/
 
 A responsive shopping cart application built for the Intern Assignment using React, TypeScript, Vite, Tailwind CSS, Zustand, TanStack Query, Zod, and localStorage.
 
